@@ -8,7 +8,6 @@
 
 .blue-bar {
     background-color: #0282f9;
-    /* colore blu DC */
     color: white;
 }
 
@@ -19,6 +18,5 @@
 
 .blue-bar span {
     font-size: 14px;
-    /* equivalente circa a 0.9rem */
     font-weight: 500;
 }
