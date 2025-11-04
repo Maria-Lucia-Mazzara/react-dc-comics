@@ -3,7 +3,7 @@ import Logo from './LogoDC'
 function Header() {
     return (
         <header>
-            <nav className='container d-flex justify-content-evenly align-items-center pt-3'>
+            <nav className='container d-flex justify-content-between align-items-center pt-3 pb-3 nav_bar'>
                 <Logo />
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
