@@ -29,3 +29,16 @@ body {
 .logo-bg img {
     width: 500px;
 }
+
+.footer-bottom {
+    background-color: #303030;
+    padding: 20px 0;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    border: 2px solid #0282f9;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+}

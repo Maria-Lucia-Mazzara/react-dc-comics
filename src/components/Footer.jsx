@@ -1,4 +1,10 @@
 import logo_sfondo from '../assets/img/dc-logo-bg.png';
+import facebook from '../assets/img/footer-facebook.png';
+import twitter from '../assets/img/footer-twitter.png';
+import youtube from '../assets/img/footer-youtube.png';
+import pinterest from '../assets/img/footer-pinterest.png';
+import periscope from '../assets/img/footer-periscope.png';
+
 function Footer() {
     return (
         <footer>
@@ -58,7 +64,19 @@ function Footer() {
                 </div>
             </section>
             <section className="footer-bottom">
-
+                <div className="container d-flex justify-content-between align-items-center">
+                    <button className="sign-up-btn">
+                        SIGN-UP NOW!
+                    </button>
+                    <div className="social d-flex align-items-center gap-3">
+                        <span className="text-primary fw-bold">FOLLOW US</span>
+                        <img src={facebook} alt="Facebook" />
+                        <img src={twitter} alt="Twitter" />
+                        <img src={youtube} alt="YouTube" />
+                        <img src={pinterest} alt="Pinterest" />
+                        <img src={periscope} alt="Periscope" />
+                    </div>
+                </div>
             </section>
         </footer>
     )
