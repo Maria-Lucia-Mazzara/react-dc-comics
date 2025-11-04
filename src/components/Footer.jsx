@@ -4,7 +4,7 @@ function Footer() {
         <footer>
             <section className="footer-top">
                 <div className="container d-flex justify-content-between align-items-start position-relative">
-                    <div className="d-flex">
+                    <div className="d-flex mt-5">
                         <div className="me-5">
                             <h4>DC COMICS</h4>
                             <ul>
@@ -51,6 +51,9 @@ function Footer() {
                                 <li>DC Power Visa</li>
                             </ul>
                         </div>
+                    </div>
+                    <div className="logo-bg">
+                        <img src={logo_sfondo} alt="DC logo background" />
                     </div>
                 </div>
             </section>
