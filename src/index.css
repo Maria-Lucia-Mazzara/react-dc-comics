@@ -42,3 +42,10 @@ body {
     padding: 10px 20px;
     font-size: 14px;
 }
+
+.footer-top {
+    background-image: url('../src/assets/img/footer-bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+}
