@@ -49,3 +49,7 @@ body {
     color: white;
     padding: 40px 0;
 }
+
+.footer-top ul {
+    list-style: none;
+}
