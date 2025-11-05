@@ -3,14 +3,15 @@ import MERCHANDISE from '../assets/img/buy-comics-merchandise.png';
 import SUBSCRIPTION from '../assets/img/buy-comics-subscriptions.png';
 import SHOP from '../assets/img/buy-comics-shop-locator.png';
 import POWER from '../assets/img/buy-dc-power-visa.svg';
+import Serie from './Series';
 
 function Main() {
     return (
         <main>
             <section className="sfondo_main">
-                <h1 className="container pt-3 pb-3 link-light">
-                    Content goes here
-                </h1>
+                <div className="container pt-3 pb-3 link-light" >
+                    <Serie />
+                </div>
                 <div className="blue-bar">
                     <div className="container d-flex justify-content-between align-items-center py-4">
                         <div className="d-flex align-items-center gap-2">
