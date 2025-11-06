@@ -4,13 +4,19 @@ import SUBSCRIPTION from '../assets/img/buy-comics-subscriptions.png';
 import SHOP from '../assets/img/buy-comics-shop-locator.png';
 import POWER from '../assets/img/buy-dc-power-visa.svg';
 import Serie from './Series';
+import Card from './Card';
 
-function Main() {
+function Main({ comics }) {
     return (
         <main>
             <section className="sfondo_main">
-                <div className="container pt-3 pb-3 link-light" >
+                {/* <div className="container pt-3 pb-3 link-light" >
                     <Serie />
+                </div> */}
+                <div className="row" id="row-comics">
+                    {comics.map((comic) => (
+                        <Card key={comic.id} thumb={comic.thumb} series={comic.series} />
+                    ))}
                 </div>
                 <div className="blue-bar">
                     <div className="container d-flex justify-content-between align-items-center py-4">
