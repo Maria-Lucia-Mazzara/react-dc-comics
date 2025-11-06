@@ -3,7 +3,7 @@ import MERCHANDISE from '../assets/img/buy-comics-merchandise.png';
 import SUBSCRIPTION from '../assets/img/buy-comics-subscriptions.png';
 import SHOP from '../assets/img/buy-comics-shop-locator.png';
 import POWER from '../assets/img/buy-dc-power-visa.svg';
-import Serie from './Series';
+// import Serie from './Series';
 import Card from './Card';
 
 function Main({ comics }) {
@@ -13,7 +13,7 @@ function Main({ comics }) {
                 {/* <div className="container pt-3 pb-3 link-light" >
                     <Serie />
                 </div> */}
-                <div className="row" id="row-comics">
+                <div className="d-flex flex-wrap gap-4 justify-content-center pt-4">
                     {comics.map((comic) => (
                         <Card key={comic.id} thumb={comic.thumb} series={comic.series} />
                     ))}

@@ -75,13 +75,17 @@ body {
 .card {
     border: none !important;
     border-radius: 0 !important;
+    background-color: black !important;
 }
 
 .card_img {
     margin-bottom: 25px;
+    border: none !important;
+
 }
 
 .card-img-top {
+    border: none !important;
     width: 250px;
     height: 250px;
     object-fit: cover;
