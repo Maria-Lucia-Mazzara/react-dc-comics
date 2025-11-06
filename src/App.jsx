@@ -164,7 +164,7 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Main comics={comics} />
       <Footer />
     </>
   )
